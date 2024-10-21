@@ -264,7 +264,7 @@ def salva_parquets():
 def consulta_var(cod=None, desc=None, d=None):
     file_path = get_dict_path()
     try:
-        df = pd.ExcelFile(file_path + r'\Dicionários de váriaveis.xls')
+        df = pd.ExcelFile(os.path.join(file_path, 'Dicionários de váriaveis.xls'))
     except:
         print('Arquivo .xls do dicionário não encontrado. Rode pofium.download()')
         return None
@@ -300,7 +300,7 @@ def consulta_var(cod=None, desc=None, d=None):
 def descreva_var(cod=None, d=None):
     file_path = get_dict_path()
     try:
-        df = pd.ExcelFile(file_path + r'\Dicionários de váriaveis.xls')
+        df = pd.ExcelFile(os.path.join(file_path, 'Dicionários de váriaveis.xls'))
     except:
         print('Arquivo .xls do dicionário não encontrado. Rode pofium.download()')
         return None
