@@ -1,4 +1,4 @@
-# Pofium
+# pofium
 
 Pacote para baixar, carregar e salvar os microdados da Pesquisa de Orçamentos Familiares (POF) - Atualmente somente para a POF 2017/2018.
 
