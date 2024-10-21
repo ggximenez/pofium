@@ -6,33 +6,33 @@ A Pesquisa de Orçamentos Familiares (POF) tem seus microdados disponibilizados 
 
 ## Instalação
 
-pip install pofium
+`pip install pofium`
 
 ## Uso
 
 ### Para importar o pacote:
 
-import pofium
+`import pofium`
 
 ### Para realizar o download e salvar os DataFrames:
 
-pofium.download()
+`pofium.download()`
 
 ### Para consultar variáveis pelo código ou descrição:
 
-pofium.consulta_var(cod='código', desc='parte da descrição buscada', d=int)
+`pofium.consulta_var(cod='código', desc='parte da descrição buscada', d=int)`
 
 - Utilize **um** dos parâmetros de busca (`cod` ou `desc`).
 - O parâmetro `d` é **obrigatório** e corresponde ao número do questionário cujo dicionário de variáveis será alvo da consulta.
 - Caso tenha dúvidas, basta rodar a função sem qualquer parâmetro:
 
-pofium.consulta_var()
+`pofium.consulta_var()`
 
 A resposta será a lista dos questionários e seus respectivos números.
 
 ### Para consultar as características de uma variável:
 
-pofium.descreva_var(cod='código', d=int)
+`pofium.descreva_var(cod='código', d=int)`
 
 O retorno será as características da variável (se indica categorias e quais são). Se o retorno for nulo, a variável não tem características descritas no dicionário disponibilizado pelo IBGE.
 
