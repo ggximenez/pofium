@@ -17,7 +17,7 @@ def get_dict_path():
         cache_dir = '/content/pofium'
     else:
         cache_dir = user_cache_dir("pofium")
-        return os.path.join(cache_dir, 'dict_pof')
+    return os.path.join(cache_dir, 'dict_pof')
 
 def download_file():
     # Criar uma pasta chamada 'dados_pof' no diretório de trabalho atual
