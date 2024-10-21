@@ -98,7 +98,7 @@ def unzip():
 
 def inst_df():
     file_path = get_default_path()
-    inst = open(file_path + "/SAS/Leitura dos Microdados - SAS.txt", "r")
+    inst = open(file_path + "/SAS/Leitura dos Microdados - SAS.txt", "r", encoding='latin1')
     inst = inst.read()
     # Regex para capturar todos os blocos entre /* e */
     pattern_t = re.compile(r'/\*([\s\S]*?)\*/')
