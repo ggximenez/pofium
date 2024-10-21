@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/875832312.svg)](https://doi.org/10.5281/zenodo.13958863)
+
 # pofium
 
 Pacote para baixar, carregar e salvar os microdados da Pesquisa de Orçamentos Familiares (POF) - Atualmente somente para a POF 2017/2018.
