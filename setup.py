@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pofium', 
-    version='0.1.2',  
+    version='0.1.4',  
     description='Pacote para download e processamento dos microdados da POF do IBGE.',
     long_description=open('README.md', encoding='utf-8').read(),  # Certifique-se de que o README.md existe
     long_description_content_type='text/markdown',
